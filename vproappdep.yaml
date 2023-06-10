@@ -24,6 +24,6 @@ spec:
         - name: init-mydb
           image: busybox
           command: ['sh', '-c', 'until nslookup vprodb; do echo waiting for mydb; sleep 2; done;']
-        - name: init-mydb
+        - name: init-mymc
           image: busybox
           command: ['sh', '-c', 'until nslookup vpromc; do echo waiting for mydb; sleep 2; done;']
