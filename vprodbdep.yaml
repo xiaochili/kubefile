@@ -15,7 +15,7 @@ spec:
         app: vprodb
     spec:
       containers:
-        - name:vprodb
+        - name: vprodb
           image: xiaochili123/vprofiledb
           args:
             - "ignore-db-dir=lost+found"
