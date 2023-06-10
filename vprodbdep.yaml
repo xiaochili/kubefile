@@ -10,7 +10,7 @@ spec:
       app: vprodb
   replicas: 1
   template:
-    metedata:
+    metadata:
       labels:
         app: vprodb
     spec:
